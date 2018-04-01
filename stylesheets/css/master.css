@@ -38,3 +38,13 @@ nav {
   font-family: "Bitter";
   font-weight: bold;
 }
+
+.nav-links {
+  margin-left: 2%;
+}
+
+.nav-icons {
+  margin-left: 12px;
+  position: relative;
+    top: 6px;
+}
