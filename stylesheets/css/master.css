@@ -56,10 +56,35 @@ section {
 }
 
 .card {
-  width: 25%;
+  width: 23%;
   margin-bottom: 12px;
+  padding: 1%;
 }
 
 .top-box {
+ position: relative;
+}
+
+.reply {
+  font-size: 30px;
+  position: absolute;
+      top: 8px;
+      left: 16px;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(180deg);
+}
+
+.views {
+  color: white;
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 14px;
+  position: absolute;
+    top: 8px;
+      right: 16px;
+}
+
+.bey {
 
 }
