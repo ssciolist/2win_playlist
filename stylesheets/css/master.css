@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  background-color: #2B2B2B;
+  justify-content: flex-end;
+}
+
+nav {
+  display: flex;
+  background-color: #2B2B2B;
+}
+
+.btn {
+  background-color: #2B2B2B;
+  color: #33B6FB;
+}
