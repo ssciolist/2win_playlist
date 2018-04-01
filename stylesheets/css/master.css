@@ -48,3 +48,18 @@ nav {
   position: relative;
     top: 6px;
 }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.card {
+  width: 25%;
+  margin-bottom: 12px;
+}
+
+.top-box {
+
+}
