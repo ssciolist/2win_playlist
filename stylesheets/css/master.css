@@ -1,3 +1,7 @@
+body {
+  font-family: "Lato";
+}
+
 header {
   display: flex;
   background-color: #2B2B2B;
@@ -7,9 +11,30 @@ header {
 nav {
   display: flex;
   background-color: #2B2B2B;
+  flex-flow: row-reverse;
 }
 
 .btn {
   background-color: #2B2B2B;
   color: #33B6FB;
+}
+
+.turn {
+  transform: rotate(90deg);
+  position: relative;
+    top: 6px;
+}
+
+.login {
+  color: white;
+  margin-top: 15px;
+}
+
+.logo {
+  flex-grow: 8;
+  margin-left: 58%;
+  color: white;
+  font-size: 30px;
+  font-family: "Bitter";
+  font-weight: bold;
 }
